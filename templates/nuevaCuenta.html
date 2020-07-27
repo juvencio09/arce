@@ -1,0 +1,46 @@
+{%extends "plantillas/plantillaInicio.html"%}
+
+{%block titulo%}
+    Nueva cuenta
+{%endblock%}    
+
+{%block cuerpo%}
+
+    <!-- Div con todo el contenido del elemento login -->
+       
+        <div class="divContenidoNuevaCuenta">
+            
+            <!-- Div que tiene la introduccion de inicio de cuenta -->
+            <div class="divIntroduccion">
+                <p>
+                    Listos para introducire al munco de Arce, el unico limite lo pones tu. 
+                    Gracias por querer pertenecer a esta gran comunidad de programadores de Arce, 
+                    hay muchos foros en los cuales como comunidad nos ayudaremos para poder, entre todos,
+                    de Arce un Sistema operativo sin lilmites.    
+                </p>
+            </div>
+
+            <!-- div con el contenido del formulario  -->
+            <div class="divFormCrearCuenta">
+                <form action="" name="frmNuevaCuenta" method="post">
+
+                    <label>Nombre completo</label>
+                    <input type="text" name="txtNombre" id="" placeholder="Nombre">
+
+                    <label>Correo electronico</label>
+                    <input type="text" name="txtCorreo" id="" placeholder="Correo">
+
+                    <label>Numero de telefono</label>
+                    <input type="text" name="txtTelefono" id="" placeholder="telefono">
+             
+                    <label>Contraseña</label>
+                    <input type="password" name="txtPassword" id="" placeholder="Contraseña">
+
+                    <button type="submit">Crear</button>
+
+                </form>
+            </div>
+           
+        </div>
+
+{%endblock%}

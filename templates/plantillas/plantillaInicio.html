@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block titulo%}{%endblock%}</title>
+
+    <!-- Iconos -->
+    <link  href="../../static/fontawesome/css/all.css"  rel="stylesheet"> 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">  
+    <!-- css -->
+    <link rel="stylesheet" href="../../static/css/plantillaInicio.css">
+    <link rel="stylesheet" href="../../static/css/inicio.css">
+    <link rel="stylesheet" href="../../static/css/login.css">
+    <link rel="stylesheet" href="../../static/css/nuevaCuenta.css">
+    
+</head>
+<body>
+
+    <header>
+        <!-- Div contenedor del header -->
+        <div class="divBarraMenuMi" id="divContenedorMenu">
+            <button class="btnMostrarMenuMinimizado" id="btnMovimientoMenu"><i class="fas fa-plus"></i></button>
+            <!-- Este div contiene el menu  -->
+            <div id="divContenidoMenu" class="classContenidoMenu">
+                <ul>
+                    <a href="/login">
+                        <li>Login</li>
+                    </a>
+                    <a href="/nuevaCuenta">
+                        <li>Nueva Cuenta</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cirucloVerde">
+            <h3><span>A</span>rce</h3>
+        </div>
+
+       
+
+    </header>
+
+    <section>
+        {%block cuerpo%}
+
+        {%endblock%}
+    </section>
+
+    <footer>
+        <img src="../static/img/baseArboles.png" class="ImagenPie">
+        <img src="../static/img/arbolLogin.png" class="classArbol">
+    </footer>
+
+
+    <!-- Librerieas -->
+    <script src="../../static/js/jquery.min.js"></script>
+    <!-- js -->
+    <script src="../../static/js/plantillaInicio.js"></script>    
+</body>
+</html>

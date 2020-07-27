@@ -1,0 +1,82 @@
+.divContenidoNuevaCuenta{
+    width: 70%;
+    height: 1000px;
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    z-index: 10;
+    
+}
+
+.divIntroduccion{
+    width: 70%;
+    height: 200px;
+    border-radius: 40px;
+    background-color: rgba(67, 29, 1, .5);
+    position: relative;
+    left: 15%;
+    top: 50px;
+}
+
+.divIntroduccion p{
+    text-align: center;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    color: rgba(107, 160, 86, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Formulario de inicio de sesion */
+
+.divFormCrearCuenta{
+    width: 70%;
+    height: 500px;
+    background-color: rgba(67, 29, 1, .5);
+    position: relative;
+    left: 15%;
+    top: 80px;
+    border-radius: 40px;
+
+}
+.divFormCrearCuenta form{
+    position: relative;
+    top: 40px;
+}
+.divFormCrearCuenta label{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(107, 160, 86, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 25px;
+}           
+
+.divFormCrearCuenta input{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    font-size: 15px;
+    left: 200px;
+    margin-top: 10px;
+}
+
+.divFormCrearCuenta button{
+    position: relative;
+    top: 70px;
+    left: 10px;
+    width: 110px;
+    border: 0px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(67, 29, 1, 1);
+    color: rgba(107, 160, 86, 0.8);
+}
+
+.divFormCrearCuenta button:hover{
+    background-color: rgba(107, 160, 86, 0.8);
+}

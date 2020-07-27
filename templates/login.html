@@ -1,0 +1,27 @@
+{%extends "plantillas/plantillaInicio.html"%}
+
+{%block titulo%}
+    Login
+{%endblock%}    
+
+{%block cuerpo%}
+
+    <!-- Div con todo el contenido del elemento login -->
+       
+        <div class="divLoginContenido">
+        
+            <div class="classFormLogin">
+                <form name="formSesion" method="post">
+
+                       <label>Nombre de Usuario</label>
+                       <input type="text" name="txtUsuario" id="" placeholder="Usuario">
+                
+
+                        <label>Contraseña</label>
+                        <input type="password" name="txtPassword" placeholder="Contraseña">
+
+                    <button type="submit">Iniciar</button>
+                </form>
+            </div>    
+        </div>
+{%endblock%}

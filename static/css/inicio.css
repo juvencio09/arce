@@ -1,0 +1,50 @@
+
+.contenedorIncio{
+    width: 70%;
+    height: 1800px;
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    z-index: 10;
+    
+}
+
+.contenedorIncio h3{
+    font-family: 'Berkshire Swash', cursive;
+    color: rgba(107, 160, 86, 0.8);
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+
+.contenedorIncio p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    color: rgba(107, 160, 86, 0.8);
+}
+
+.pregunta{
+    margin-top: 40px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color:rgba(67, 29, 1, .5);
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pregunta hr{
+    color: rgba(107, 160, 86, 0.8);
+    width: 50%;
+    text-align: center;
+}
